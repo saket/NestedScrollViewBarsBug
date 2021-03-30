@@ -9,9 +9,8 @@ buildscript {
   }
 
   dependencies {
-    classpath 'com.android.tools.build:gradle:4.0.1'
+    classpath 'com.android.tools.build:gradle:4.0.2'
     classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotlin"
-    classpath "com.squareup.sqldelight:gradle-plugin:$versions.sqlDelight"
   }
 }
 
@@ -19,7 +18,6 @@ allprojects {
   repositories {
     google()
     mavenCentral()
-    jcenter()
     maven { url 'https://oss.sonatype.org/content/repositories/snapshots' }
   }
 }

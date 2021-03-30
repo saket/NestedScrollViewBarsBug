@@ -27,34 +27,5 @@ android {
 
 dependencies {
   implementation deps.androidx.appCompat
-  implementation deps.androidx.recyclerView
-  implementation deps.androidx.browser
-  implementation deps.androidx.ktx
-  implementation deps.androidx.lifecycle.process
-  implementation deps.material.core
-
-  implementation deps.contour
-  implementation deps.timber
-  implementation deps.rx2.core
-  implementation deps.rx2.android
-  implementation deps.rx2.binding
-  implementation deps.rx2.kotlin
-  implementation deps.rx2.replayingShare
-  implementation deps.rx2.replayingShareKotlin
-  implementation deps.dagger.runtime
-  implementation deps.dagger.assistedInject.annotations
-  implementation deps.dagger.inflationInject.core
-  kapt deps.dagger.compiler
-  kapt deps.dagger.assistedInject.processor
-  kapt deps.dagger.inflationInject.processor
-  implementation deps.inboxRecyclerView
-  implementation deps.itemAnimators
-  implementation deps.betterLinkMovementMethod
-  implementation deps.cascade
-
-  androidTestImplementation deps.androidx.test.core
-  androidTestImplementation deps.androidx.test.runner
-  androidTestImplementation deps.androidx.test.jUnit
-  androidTestImplementation deps.androidx.test.jUnitKtx
-  androidTestImplementation deps.truth
+  implementation deps.androidx.core
 }

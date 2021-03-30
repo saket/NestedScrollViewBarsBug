@@ -1,12 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
-  tools:context="me.saket.baseandroidproject.MainActivity">
+  android:background="#000000"
+  android:id="@+id/scrollviewfoo"
+  android:fillViewport="true"
+  >
 
   <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="Hello World!" />
-</FrameLayout>
+    android:background="@null"
+    android:gravity="top"
+    android:lineHeight="20sp"
+    android:padding="16dp"
+    android:text="I'm baby taiyaki thundercats woke tumblr shoreditch artisan. Forage schlitz mlkshk yr selvage thundercats yuccie tofu. Fixie distillery paleo tilde hot chicken schlitz tattooed umami butcher green juice bitters four dollar toast. VHS twee jean shorts vinyl woke migas, salvia ugh cray selvage roof party farm-to-table. Semiotics dreamcatcher cardigan etsy migas, direct trade lomo ugh vice copper mug salvia freegan pug.
+
+\n\nOccupy retro synth offal waistcoat. YOLO celiac yr paleo taiyaki gochujang iceland flexitarian. Man bun actually cloud bread gluten-free single-origin coffee iPhone. Shabby chic +1 kogi, street art paleo skateboard taxidermy trust fund selvage lumbersexual polaroid aesthetic knausgaard echo park. Franzen knausgaard authentic ennui vegan. Ramps church-key waistcoat, locavore slow-carb tumblr man braid hell of gochujang lo-fi four dollar toast.
+
+\n\nGluten-free heirloom retro, pug af post-ironic chillwave wolf letterpress literally snackwave chartreuse thundercats williamsburg. XOXO gochujang schlitz mumblecore 90's. Microdosing subway tile before they sold out hashtag biodiesel vinyl. Keffiyeh tacos fanny pack hot chicken adaptogen fam. Fingerstache ramps 8-bit bespoke distillery enamel pin polaroid live-edge. Fashion axe seitan lomo, paleo iceland artisan marfa yuccie mixtape pour-over pabst neutra. Literally vegan sartorial, blue bottle cronut shaman raclette marfa humblebrag vape.
+
+\n\nActivated charcoal af iceland kogi poutine snackwave. Tattooed church-key whatever, post-ironic hella helvetica wolf cold-pressed brooklyn meggings farm-to-table disrupt biodiesel meditation. Marfa put a bird on it umami you probably haven't heard of them. Wolf vinyl pabst brooklyn hashtag kombucha lyft hella pinterest food truck prism live-edge green juice palo santo.
+
+\n\nMaster cleanse lyft tofu la croix beard mixtape chicharrones. Four loko wolf mumblecore brunch affogato literally. Skateboard hashtag twee plaid green juice heirloom swag stumptown, letterpress DIY viral sriracha. Air plant ennui disrupt jean shorts, bespoke deep v activated charcoal cronut vinyl succulents mixtape small batch kombucha woke adaptogen. Butcher viral cardigan marfa ramps XOXO small batch post-ironic franzen taiyaki trust fund. Normcore adaptogen williamsburg gastropub, humblebrag helvetica edison bulb gentrify la croix whatever readymade biodiesel brunch.
+
+\n\nSkateboard put a bird on it pitchfork pabst, taiyaki franzen ethical post-ironic. Succulents hexagon squid brunch blog shaman. Air plant mlkshk trust fund, organic iPhone next level viral activated charcoal. Narwhal waistcoat aesthetic cronut before they sold out. Ennui pour-over VHS drinking vinegar ethical meggings forage 90's beard DIY distillery irony readymade.
+
+\n\nSwag freegan cold-pressed gastropub helvetica kale chips umami godard tilde woke etsy you probably haven't heard of them. Air plant blue bottle raw denim venmo, bicycle rights unicorn pinterest chambray normcore vinyl edison bulb whatever meditation YOLO hashtag. Offal gentrify adaptogen, crucifix drinking vinegar forage freegan chartreuse. Tumeric DIY ethical, marfa poke street art tilde pabst typewriter mixtape shaman kogi. Narwhal 90's man bun helvetica YOLO photo booth, la croix everyday carry hell of street art trust fund. Raclette photo booth echo park, helvetica raw denim mumblecore irony roof party.
+
+\n\nAir plant pinterest tbh man bun copper mug farm-to-table schlitz unicorn heirloom pabst activated charcoal health goth authentic af. Farm-to-table plaid intelligentsia brunch cardigan actually single-origin coffee succulents bicycle rights umami hoodie vegan. Flexitarian hot chicken af raw denim gastropub tbh squid pour-over. Tumblr chicharrones fixie sriracha. Humblebrag tousled beard, fam lumbersexual wayfarers vinyl shabby chic pork belly master cleanse. Vinyl viral ethical echo park marfa tote bag. Schlitz lomo drinking vinegar hell of health goth.
+
+\n\nPlaid letterpress messenger bag subway tile tousled, cornhole ugh thundercats. Ugh unicorn chambray, mustache la croix waistcoat letterpress ethical squid before they sold out. Mustache affogato mlkshk man braid, poutine 8-bit humblebrag locavore pitchfork fingerstache aesthetic taiyaki listicle. Prism gochujang tacos cardigan.
+
+\n\nFood truck meggings thundercats health goth. Edison bulb cold-pressed lumbersexual, activated charcoal venmo yr mlkshk dreamcatcher artisan ethical VHS subway tile keytar. Fashion axe pickled tofu, messenger bag portland whatever beard pop-up slow-carb man bun keytar health goth. Normcore chartreuse mustache tofu everyday carry subway tile palo santo vinyl. Vexillologist green juice YOLO scenester fam."
+    android:textIsSelectable="true"
+    android:textSize="16sp"
+    tools:ignore="HardcodedText" />
+</androidx.core.widget.NestedScrollView>
